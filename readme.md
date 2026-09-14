@@ -92,9 +92,25 @@ img agregar una imagen -> propiedades alt="texto alternativo si no aparece la im
 
 etiquetas usadas:
 ```
+<header> Define la cabecera de una página o sección. Suele contener el logo, título, menú de navegación o información introductoria.
+```
+como usarla 
+
+```
 <header>
-<section>
+  <h1>Mi Sitio Web</h1>
+  <nav>...</nav>
+</header>
+```
+
+```
+
+<section> Agrupa contenido relacionado temáticamente dentro de un documento. Cada sección suele tener su propio encabezado. 
+
+
 </footer>
+Define el pie de página de un documento o sección. Contiene datos como derechos de autor, contacto o enlaces legales.
+
 ```
 
 ## ejercicio 7
@@ -103,10 +119,12 @@ el ejercicio consiste en hacer una lista mediante biñetas
 
 etiquetas 
 ```
+<ul>Crea una lista no ordenada (con viñetas).
 <ul>
-<li>
-<ol>
-<li>
+  <li>Elemento 1</li> Define un elemento o ítem dentro de una lista (<ul> u <ol>)
+  <li>Elemento 2</li>
+</ul>
+<ol>Crea una lista ordenada (numerada).
 ```
 
 ## Ejercicio 8
@@ -116,10 +134,12 @@ consiste en hacer un horario mediante una tabla en html y se le agregaron estilo
 
 etiquetas
 ``` 
-<link
-<table
-<thead>
-<tbody>
+<link  Vincula recursos externos al documento, como hojas de estilo CSS o íconos. Va dentro del <head> ejemplo <link rel="stylesheet" href="estilos.css">
+
+<table  Crea una tabla para mostrar datos organizados en filas y columnas
+
+<thead> Agrupa las filas que forman el encabezado de una tabla.
+<tbody> Agrupa el cuerpo principal (contenido) de una tabla.
 <ht>
 ```
 
@@ -131,11 +151,16 @@ se crea un formulario usando cajas de texto con texto predefinido como ejemplo u
 
 etiquetas 
 ```
-<div
-<form
-<label
-<input
-<buttom>
+<div Es un contenedor genérico de bloque. Se usa para agrupar y organizar elementos, muy útil con CSS.
+
+<form Define un formulario para recopilar datos del usuario.
+ejemplo: <form action="/enviar" method="post">
+  ...
+</form>
+
+<label> Define una etiqueta descriptiva para un campo de formulario.
+<input> Crea un campo de entrada donde el usuario puede escribir o seleccionar datos.
+<buttom> Crea un botón
 ```
 
 
