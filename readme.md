@@ -2,6 +2,11 @@
 
 Alumno santiago Ramirez Erick Omar
 
+
+para el menu pricipal cree unarchivo index.html que es lo priemro que se muestra en el proyecto en github pages y mediante enlaces redireccione a cada ejercicio para que sea mas facil de visualizar 
+
+![alt text](img/index.png)
+
 ### ejercicio 1
 ![foto del ejercicio1](img/ejercicio1.png)
 
@@ -18,6 +23,7 @@ etiquetas usadas
 h1 para titulos
 p para crear parrafos
 
+
 ![ejercicio 2](img/ejercicio2.png)
 
 ```
@@ -30,6 +36,7 @@ p para crear parrafos
 </body>
 ```
 etiquetas
+
 strong
 em
 
@@ -56,7 +63,7 @@ em
 
 ### ejercicio 4
 
-![ejercicio 4](img/mi_viaje.png)
+![ejercicio 4](img/ejercicio4.png)
 
 ```
 <body>
@@ -68,3 +75,83 @@ em
 ```
 
 code
+
+## ejercicio 5 
+etiquetas:
+br: hacer un salto de linea 
+img agregar una imagen -> propiedades alt="texto alternativo si no aparece la imagen "
+
+
+![alt text](img/ejercicio5.png)
+
+
+
+## ejercicio 6
+
+![imagen ejercicio6 ](img/ejercicio6.png)
+
+etiquetas usadas:
+```
+<header>
+<section>
+</footer>
+```
+
+## ejercicio 7
+el ejercicio consiste en hacer una lista mediante biñetas
+![alt text](img/ejercicio7.png)
+
+etiquetas 
+```
+<ul>
+<li>
+<ol>
+<li>
+```
+
+## Ejercicio 8
+
+consiste en hacer un horario mediante una tabla en html y se le agregaron estilos en un archovo css separado
+![ejercicio8](img/ejercicio8.png)
+
+etiquetas
+``` 
+<link
+<table
+<thead>
+<tbody>
+<ht>
+```
+
+ejercicio 9 
+
+se crea un formulario usando cajas de texto con texto predefinido como ejemplo usando la propiedad placeholder en etiquetas input
+
+![ejercicio9](img/ejercicio9.png)
+
+etiquetas 
+```
+<div
+<form
+<label
+<input
+<buttom>
+```
+
+
+## ejercicio 10 conversion de termperatura
+
+se crea 1 calculadora ocupando un input para ingresar un valor y al presionar el boton "convertir" convierta la cantidad de grados celcius a Farenheith y agrega el resultado en otro input al cual no se puede editar el contenido 
+![ejercicio 10](img/ejercicio10.png)
+
+cosas importante 
+la funcionalidad se impleneta mediante un archvo externo js y ha agrega al html con la linea
+
+```
+<script src="js/ejercicio10.js"></script>
+```
+
+y se agreaga la funcion con el evento  onclick en el boton 
+```
+<button type="button" onclick="convertir()">Convertir</button>
+```
